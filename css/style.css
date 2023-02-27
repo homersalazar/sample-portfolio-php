@@ -1,0 +1,43 @@
+@import url('home.css');
+@import url('about.css');
+@import url('skill.css');
+@import url('contact.css');
+@import url('footer.css');
+
+:root{
+    --white: #fff !important;
+    --title: #f04b4c;
+    --bg: #213159;
+    --footer: #3d6098;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: bradley hand, cursive; 
+
+}
+
+/* body{ 
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    font-family: sans-serif; 
+}
+
+.main { 
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 100vh) 1fr; 
+ } */

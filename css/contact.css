@@ -1,0 +1,11 @@
+
+.main .contact-section h1 span{
+    -webkit-text-stroke: 0.5px var(--title);
+    color: transparent;
+    font-size: 3rem;
+}
+
+
+.main .contact-section span{
+    color: var(--title);
+}

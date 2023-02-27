@@ -1,0 +1,49 @@
+.main .footer-section{
+    background: var(--footer);
+    /* display: grid;
+    height: 40vh; */
+}
+
+/* .main .footer-section .footer-content{
+
+} */
+
+/* text css above hero image*/
+.footer-section .footer-content .footer_title {
+    font-size: 3.0rem;
+    color: var(--white);
+}
+
+.footer-section .footer-content .footer_desc {
+    font-size: 1.5rem;
+     color: #e7e7e7;
+}
+
+.footer-section .footer-content .footer-text {
+    text-align: center;
+    color: black;
+}
+
+.footer-section .footer-content .footer_desc span{
+    color: var(--title);
+    font-weight: bold;
+}
+
+
+.footer-section .footer-content .social-icons i{
+    color: var(--white);
+    font-size: 1.5rem;
+    border: solid ;
+    border-radius: 100%;
+    /* margin: 5px; */
+    padding: 3px;
+}
+
+.footer-section .footer-content .social-icons i:hover{
+    color: var(--title);
+}
+
+.footer-section .footer-content p{
+    color: #e7e7e7;
+    margin-top: 10px;
+}

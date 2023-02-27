@@ -1,0 +1,113 @@
+
+.main .skills-section h1 span{
+    -webkit-text-stroke: 0.5px var(--title);
+    color: transparent;
+    font-size: 3rem;
+}
+
+.main .skills-section h4 {
+    color: var(--title);
+}
+
+.main .skills-section .hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 2s;
+}
+
+.main .skills-section .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+/* about - skill bar */
+.main .skills-section  .skills:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.main .skills-section .details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 5px; 
+}
+
+.main .skills-section  .bar{
+    position: relative;
+    border: 2px solid #3d6098;
+    border-radius: 20px;
+}
+
+.main .skills-section  .bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #3d6098;
+   
+}
+
+.main .skills-section  #html-bar{
+    animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+.main .skills-section  #css-bar{
+    animation: css-fill 3s forwards;
+}
+
+@keyframes css-fill{
+    100%{
+        width: 70%;
+    }
+}
+
+.main .skills-section  #js-bar{
+    animation: js-fill 4s forwards;
+}
+
+@keyframes js-fill {
+    100%{
+        width: 60%;
+    }
+}
+
+.main .skills-section #php-bar{
+    animation: php-fill 5s forwards;
+}
+
+@keyframes php-fill{
+    100%{
+        width: 75%;
+    }
+} 
+
+.main .skills-section #mysql-bar{
+    animation: php-fill 5s forwards;
+}
+
+@keyframes mysql-fill{
+    100%{
+        width: 70%;
+    }
+} 
+
+.main .skills-section .company{
+    border-bottom: black 1px;
+}
+
+.main .skills-section .degree{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main .skills-section .position{
+    font-weight: bold;
+    font-size: 18px;
+}

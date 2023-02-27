@@ -1,0 +1,88 @@
+.home-section .nav-main {
+    height: 100vh;
+    /* background: url('images/heroImage.jpeg'); */
+    background-color: var(--bg);
+    background-size:cover;
+    position:relative;
+    /* margin-top: 20px; */
+}
+
+#home{
+    background-color: var(--bg);
+}
+
+.main .home-section .nav-main .navbarScroll.navbarDark {
+    background-color: var(--bg);
+    opacity: 0.7;
+    color: var(--white);
+
+}
+
+.main .nav-main li a{
+    color: var(--white) !important;
+}
+
+
+.main .home-section .nav-main h2{
+    color: var(--white);
+    font-size: 30px;
+
+}
+
+.main .home-section .nav-main li a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--title);
+    transform: scale(0, 1);
+    transition: transform 200ms ease-in;
+  }
+
+.main .home-section .nav-main li a:hover::after {
+    transform: scale(1, 1);
+}
+
+.hero-main p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero-main h1{
+    font-size: 80px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../image/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+
+    }
+}
+
+/* text css above hero image*/
+.hero-main .hero_title {
+    font-size: 3.0rem;
+}
+
+.hero-main .hero_desc {
+    font-size: 2.5rem;
+}
+
+.hero-main .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-main .auto-type{
+    color: var(--title);
+}
